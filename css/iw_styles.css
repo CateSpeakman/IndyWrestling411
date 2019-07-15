@@ -4,25 +4,38 @@ body{
 }
 
 
-h1, h2.banner{
+.banner{
     color:red;
     text-align: center;
+}
+.login{
+    color:red;
+
 }
 p.about{
     color:red; 
  }
 
-.navbar{
-    background-color:black; 
+ .navbar{
+    background-color:black;
  }
 
- nav ul li a:link{
+ nav ul li{
      color:red;
  }
 
  .home_pic{
     width:70%;
     height:70%;
+ }
+
+ #login_pic{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width:50;
+     height:50;
+    
  }
 
  .about{
@@ -38,6 +51,9 @@ p.about{
     float:left;
 }
 
+#registerbtn{
+    padding:20px;
+}
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {

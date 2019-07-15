@@ -14,7 +14,7 @@
   <body>
     <!--Page Header-->
     <header>
-      <h1 class="banner">Welcome to IndyWrestling 411</h1>
+      <h1 class="banner">IndyWrestling 411</h1>
       <h2 class="banner">Sharing the Passion of Independent Wrestling</h2>
 
       <!--Vertical Nav Bar-->
@@ -44,8 +44,70 @@
         </ul>
       </nav>
     </header>
-    <!-- main body of page/-->
+    <!-- main body of page/ This page is for new user registration-->
     <main>
+        <h3 class="login">Sign Up</h3>
+    <!-- this is the registration form section-->
+        <div class="mx-auto" style="width: 200px;">
+            <form action="/action_page.php">
+              <div class="container">
+                <p class="login">Please fill in this form to create an account.</p>
+                <hr>
+            
+                <label for="username"><b>Username</b></label>
+                <input type="username" placeholder="Enter username" name="username" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            
+                <label for="psw-confirm"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Confirm Password" name="psw-confirm" required>
+                <hr>
+                            
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                            
+                <button type="submit" class="registerbtn">Register</button>
+              </div>
+
+              <br />
+
+     <!-- This is the hear about us section of registration form-->
+              <div id="hearabout">
+                <p>How did you hear about us?</p>
+                <br />
+              <div class="form-check">
+                  <input class="form-check-input" type="radio" name="hearabout" id="wrestler_promotions" value="option1" checked>
+                  <label class="form-check-label" for="wrestler_promotions">
+                  Wrestler/Promotion
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="hearabout" id="friend" value="option2">
+                  <label class="form-check-label" for="friend">
+                   Friend
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="hearabout" id="online" value="option3">
+                  <label class="form-check-label" for="online">
+                    Online
+                  </label>
+                </div>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                       <input type="radio" aria-label="Radio button for following text input">
+                      </div>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Text input with radio button">
+                  </div>
+                  <br />
+              <div class="container signin">
+                <p>Already have an account? <a href="login.html">Log in</a>.</p>
+              </div>
+            </form>
+
     </main>
     
 
