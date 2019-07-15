@@ -1,8 +1,17 @@
-.banner{
+
+body{
     background-color:black;
+}
+
+
+h1, h2.banner{
     color:red;
     text-align: center;
 }
+p.about{
+    color:red; 
+ }
+
 .navbar{
     background-color:black; 
  }
@@ -11,18 +20,28 @@
      color:red;
  }
 
+ .home_pic{
+    width:70%;
+    height:70%;
+ }
 
+ .about{
+    width:20%;
+    height:20%;
+    float:left;
+    
+}
 
-
-
-
-
-
+.about2{
+    width:20%;
+    height:20%;
+    float:left;
+}
 
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    h2 .banner {
+    h2 .banner{
         display:none;
     }   
     .navbar{
@@ -49,14 +68,3 @@
     }   
 } 
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    
-    }   
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    
-    }   
-} 
