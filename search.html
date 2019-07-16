@@ -16,7 +16,7 @@
     <!--Page Header-->
     <header>
       <h1 class="banner">IndyWrestling 411</h1>
-      <h2 class="banner">Sharing the Passion of Independent Wrestling</h2>
+      <h2 class="banner">Sharing the Passion of Independent Professional Wrestling</h2>
 
       <!--Vertical Nav Bar-->
     <nav>
@@ -48,12 +48,12 @@
     <!-- main body of page/-->
     <main>
       
-     <h4 class="login"> Looking for a show?  Let us help. You can search by promotion or input a city/state/zip and date.</h3>
+     <h4 class="login"> Looking for a show?  Let us help. You can search by promotion or input a city/state/zip and date.</h4>
       <br />
       <h5 class="login">Choose by Promotion...</h5>
       <br />
 <!-- this section will allow the user to select by company-->
-  <section>
+  
     <form>
     <div class="form-row align-items-center">
       <div class="col-auto my-1" >
@@ -69,9 +69,9 @@
       <div class="col-auto my-1">
         <button type="submit" class="btn btn-primary">Submit</button>
       </div>
-    </div>
+  
     </form>
-  </section>
+
 
 <!-- this section will allow user to select by city/state/zip/date range-->
 
@@ -79,11 +79,10 @@
       <br />
       <h5 class="login">Or choose by City/State/Zip and dates...</h5>
       <br />
-      <div>
+      <div class="container">
           <form action="/action_page.php">
-            <div class="container">       
               <label for="city"><b>City</b></label>
-              <input type="city" placeholder="Enter city" name="city" required>
+              <input type="text" id="city" placeholder="Enter city" name="city">
           <!--add dropdown for states-->
               <div class="form-row align-items-center">
                     <label for="state"><b>State</b></label>
@@ -94,22 +93,21 @@
                       <option value="VT">VT</option>
                     </select>
                   </div>
-                 </div>
+              
           
               <label for="zipcode"><b>Zipcode</b></label>
-              <input type="zipcode" placeholder="Enter zipcode" name="zipcode" required>
+              <input type="number" id="zipcode" placeholder="Enter zipcode" name="zipcode" >
           
-              <form action="/action_page.php">
                 Start date:
                 <input type="date" name="start_date">
                 End date:
                 <input type="date" name="end_date">
-              </form>           
-              
+                        
+              </form>
                <br />           
               <button type="submit" id="registerbtn">Submit</button>
-            </div>
-
+         
+      </div>
     </section>
     </main>
     

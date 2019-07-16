@@ -19,9 +19,13 @@ body{
     color:red;
 
 }
+nav, div.container{
+    color:red;
+}
 
 p.about{
     color:red; 
+    text-align:left;
  }
 
  .navbar{
@@ -47,14 +51,6 @@ p.about{
      height:50;
     
  }
-
- .about{
-    width:20%;
-    height:20%;
-    float:left;
-    
-}
-
 
  #about{
     width:30%;
