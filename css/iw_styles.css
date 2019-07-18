@@ -84,7 +84,7 @@ div#dates, div#location, div#miles{
 
 #registerbtn{
     padding:20px;
-}
+    }
 /* table styling*/
 .results{
     color:red;
@@ -114,6 +114,17 @@ div#dates, div#location, div#miles{
         height:50%;
      }
 
+    .login{
+        font-size:15px;
+    }
+
+    .results{
+        font-size:10px;
+    }
+
+    .table{
+        font-size:10px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -124,7 +135,7 @@ div#dates, div#location, div#miles{
     }
     
     h2.banner{
-        font-size:30px;
+        font-size:20px;
     }   
 
     h2#banner{
