@@ -24,8 +24,8 @@ body{
 }
 
 /*changes font color in form on login, register and search pages*/
-}
-div.container p {
+
+div.container {
     color:red;
 }
 
@@ -43,13 +43,6 @@ div#dates, div#location, div#miles{
     color:red;
 }
 
-div#city{
-    align-self: left;
-}
-
-div#submit{
-     
-}
 
 
  /*this is for the results page*/
@@ -100,30 +93,64 @@ div#submit{
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    h2 .banner{
+   
+    h1.banner{
+        font-size:20px;
+    }
+
+    h2.banner{
         display:none;
     }   
-    .navbar{
-        text-align:center;
+    
+    h2#banner{
+        font-size:20px;
     }
-} 
+    .navigation{
+        font-size:10px;    
+    }
+
+    .home_pic{
+        width:50%;
+        height:50%;
+     }
+
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px){
-    h2 .banner{
-        display:none;
+    
+    h1.banner{
+        font-size:30px;
+    }
+    
+    h2.banner{
+        font-size:30px;
     }   
-    .navbar{
-        float:none;
-        text-align:center;
+
+    h2#banner{
+        font-size:20px;
+    }
+
+    .navigation{
+        font-size:10px;
     }
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .navbar{
-        float:none;
-        text-align:center;
+    h1.banner{
+        font-size:30px;
+    }
+    h2.banner{
+        font-size:30px;
     }   
+    
+    h2#banner{
+        font-size:20px;
+    }
+    .navigation{
+        font-size:20px;
+    }
+
 } 
 
